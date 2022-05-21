@@ -1,6 +1,6 @@
 # 🏮 Ninja Slides
 
-## What's Marp for VF Code and how to use it?
+## What's Marp for VS Code and how to use it?
 
 [【VS Code + Marp】Markdownから爆速・自由自在なデザインで、プレゼンスライドを作る](https://qiita.com/tomo_makes/items/aafae4021986553ae1d8)
 
