@@ -1,0 +1,72 @@
+/* @theme nin-theme */
+
+@import 'default';
+:root {
+    --main-color: #e60022;
+    --sub-color: #949699;
+}
+
+section::after {
+    /* Add "Page" prefix and total page number */
+    /* text */
+    content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+    color: var(--sub-color);
+    /* box */
+    border: 1px solid var(--sub-color);
+    border-radius: 10%;
+    padding: 0.3em;
+}
+
+section.title {
+    /* 文字 */
+    font-size: 36px;
+    text-align: center;
+    color: var(--sub-color);
+    /* 枠 */
+    border: 60px solid var(--main-color);
+}
+
+section.title h1 {
+    color: var(--main-color);
+    font-size: 60px;
+}
+
+section.slides {
+    font-size: 25px;
+    padding: 40px;
+    border-bottom: solid 60px var(--main-color);
+}
+
+section.slides h1 {
+    font-size: 42px;
+    text-align: center;
+    color: /* var(--main-color)*/
+    black;
+    border-bottom: solid 0.5px var(--sub-color);
+}
+
+section.slides h2 {
+    font-size: 35px;
+    color: var(--sub-color);
+}
+
+section.slides h3 {
+    font-size: 30px;
+    color: var(--sub-color);
+}
+
+code {
+    /* font-family: Fira Code; */
+}
+
+code.language-verilog {
+    font-variant-ligatures: none;
+}
+
+code.language-vhdl {
+    font-variant-ligatures: none;
+}
+
+code.language-diff {
+    font-variant-ligatures: none;
+}
